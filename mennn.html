@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu Card</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-card {
+        width: 80%;
+        max-width: 1200px;
+        background-color: black;
+        border: 2px solid green;
+        padding: 10px;
+        color: white;
+        text-align: center;
+    }
+    .menu-card h2 {
+        color: rgb(152, 210, 6);
+        margin-bottom: 20px;
+    }
+    .menu-section {
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        background-color: #333;
+        border: 2px solid green;
+    }
+    .menu-section img {
+        width: 100%;
+        height: auto;
+    }
+    .menu-section table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .menu-section th {
+        background-color: green;
+        color: white;
+        padding: 8px;
+        font-size: 1.2em;
+    }
+    .menu-section td {
+        border: 1px solid #555;
+        padding: 8px;
+    }
+    .menu-section .price {
+        text-align: right;
+    }
+    .menu-section img {
+    width: 100%;
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+</style>
+</head>
+<body>
+
+<div class="menu-card">
+    <h2>MENU CARD</h2>
+    <div class="menu-section">
+        
+        <h3>PURE VEG</h3>
+        <table>
+            <tr><img src="https://tse2.mm.bing.net/th?id=OIP.x0Y9z28eukntUMZteLarYAAAAA&pid=Api&P=0&h=180" ></tr>
+            <tr><th>Menu</th><th>Price</th></tr>
+            <tr><td>Mutter Paneer</td><td class="price">200</td></tr>
+            <tr><td>Shahi Paneer</td><td class="price">220</td></tr>
+            <tr><td>Kajoo Masala</td><td class="price">220</td></tr>
+            <tr><td>Palak Paneer</td><td class="price">170</td></tr>
+            <tr><td>Veg Kolhapuri</td><td class="price">160</td></tr>
+            <tr><td>Dal Tadka</td><td class="price">150</td></tr>
+            <tr><td>Bhendi Fry</td><td class="price">170</td></tr>
+        </table>
+    </div>
+    <div class="menu-section">
+        <h3>BREADS</h3>
+        <table>
+            <tr><img src="https://tse1.mm.bing.net/th?id=OIP.65MzpdExAXjLG3r07bwihAHaD4&pid=Api&rs=1&c=1&qlt=95&w=225&h=117"></tr>
+
+            <tr><th>Menu</th><th>Price</th></tr>
+            <tr><td>Tandoori Roti</td><td class="price">20</td></tr>
+            <tr><td>Lachha Paratha</td><td class="price">30</td></tr>
+            <tr><td>Butter Naan</td><td class="price">25</td></tr>
+            <tr><td>Roomali Roti</td><td class="price">15</td></tr>
+            <tr><td>Aloo Paratha</td><td class="price">50</td></tr>
+            <tr><td>Plain Naan</td><td class="price">20</td></tr>
+            <tr><td>Garlic Naan</td><td class="price">30</td></tr>
+        </table>
+    </div>
+    <div class="menu-section">
+        <h3>NON-VEG</h3>
+        <table>
+            <tr><img src="https://tse2.mm.bing.net/th?id=OIP.Py4eRbJ0WIFjs51eUrIErAHaEo&pid=Api&P=0&h=180"></tr>
+
+            <tr><th>Menu</th><th>Price</th></tr>
+            <tr><td>Butter Chicken</td><td class="price">350</td></tr>
+            <tr><td>Kadai Chicken</td><td class="price">250</td></tr>
+            <tr><td>Chicken Curry</td><td class="price">300</td></tr>
+            <tr><td>Fish Curry</td><td class="price">400</td></tr>
+            <tr><td>Egg Curry</td><td class="price">150</td></tr>
+            <tr><td>Chicken Handi spl</td><td class="price">270</td></tr>
+            <tr><td>Chicken fry</td><td class="price">450</td></tr>
+        </table>
+    </div>
+    <div class="menu-section">
+        <h3>RICE</h3>
+        <table>
+            <tr><img src="https://tse3.mm.bing.net/th?id=OIP.gawRE4C7mufKdZrrZD_yVQHaHa&pid=Api&P=0&h=180"></tr>
+
+            <tr><th>Menu</th><th>Price</th></tr>
+            <tr><td>Jeera Rice</td><td class="price">130</td></tr>
+            <tr><td>Veg Pulao</td><td class="price">90</td></tr>
+            <tr><td>Plain Rice</td><td class="price">90</td></tr>
+            <tr><td>Biryani</td><td class="price">150</td></tr>
+            <tr><td>Tawa Pulao</td><td class="price">100</td></tr>
+            <tr><td>Paneer Pulao</td><td class="price">140</td></tr>
+            <tr><td>Mutter Pulao</td><td class="price">140</td></tr>
+            <tr><td>Chicken Pulao</td><td class="price">210</td></tr>
+        </table>
+    </div>
+    <div class="menu-section">
+        <h3>CHINESE</h3>
+        <table>
+            <tr><img src="https://tse3.mm.bing.net/th?id=OIP.3DZfvfWx9-MA6qz2a6UBrgHaF7&pid=Api&P=0&h=180"></tr>
+
+            <tr><th>Menu</th><th>Full</th><th>Half</th></tr>
+            <tr><td>Noodles</td><td class="price">140</td><td class="price">70</td></tr>
+            <tr><td>Manchurian</td><td class="price">130</td><td class="price">65</td></tr>
+            <tr><td>Fried Rice</td><td class="price">130</td><td class="price">65</td></tr>
+            <tr><td>Mashew Soup</td><td class="price">170</td><td class="price">90</td></tr>
+            <tr><td>Szechwan Chilli</td><td class="price">150</td><td class="price">80</td></tr>
+            <tr><td>Szechwan Fried Rice</td><td class="price">160</td><td class="price">80</td></tr>
+            <tr><td>Chicken Manchow Soup</td><td class="price">170</td><td class="price">90</td></tr>
+        </table>
+    </div>
+    <div class="menu-section">
+        <h3>SOUTH INDIAN</h3>
+        <table>
+           <tr><img src="https://tse1.mm.bing.net/th?id=OIP.qcGu4nx1n-BgdM_tQV8w2wHaE8&pid=Api&P=0&h=180"></tr>
+
+            <tr><th>Menu</th><th>Price</th></tr>
+            <tr><td>Plain Dosa</td><td class="price">35</td></tr>
+            <tr><td>Masala Dosa</td><td class="price">45</td></tr>
+            <tr><td>vada Sambar</td><td class="price">30</td></tr>
+            <tr><td>Idli Sambar</td><td class="price">35</td></tr>
+            <tr><td>Pulihora</td><td class="price">40</td></tr>
+            <tr><td>Uttapa</td><td class="price">70</td></tr>
+            <tr><td>loni-SpanJ Dosa</td><td class="price">60</td></tr>
+            <tr><td>rasam-Rice</td><td class="price">50</td></tr>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
